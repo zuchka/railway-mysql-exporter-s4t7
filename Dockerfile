@@ -1,4 +1,4 @@
-FROM prometheuscommunity/postgres-exporter:latest
+FROM prom/mysqld-exporter:latest
 
 COPY .my.cnf /.my.cnf
 
