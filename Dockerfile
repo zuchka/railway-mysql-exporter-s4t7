@@ -12,6 +12,6 @@ ENV URL="containers-us-west-55.railway.app:7258"
 EXPOSE 9104
 
 ENTRYPOINT [ "/bin/mysqld_exporter" ]
-CMD [ "--mysqld.address=${URL}", \
+CMD [ "--mysqld.address=${DATA_SOURCE_NAME}", \
     "--mysqld.username=root", \
     "--tls.insecure-skip-verify"]
