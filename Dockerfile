@@ -13,6 +13,7 @@ ENV MYSQLD_EXPORTER_PASSWORD=JTMSqRLFA18n2Mb6j44Q
 EXPOSE 9104
 ENV URL="containers-us-west-55.railway.app:7258"
 ENTRYPOINT [ "/bin/mysqld_exporter" ]
-CMD [ "--mysqld.address=$URL", \
+ENV URL="containers-us-west-55.railway.app:7258"
+CMD [ "--mysqld.address=${URL}", \
     "--mysqld.username=root", \
     "--tls.insecure-skip-verify"]
