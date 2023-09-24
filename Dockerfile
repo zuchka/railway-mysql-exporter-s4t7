@@ -14,4 +14,4 @@ EXPOSE 9104
 ENTRYPOINT [ "/bin/mysqld_exporter" ]
 CMD [ "--mysqld.address=containers-us-west-55.railway.app:7258/railway", \
     "--mysqld.username=root", \
-    "--tls.insecure-skip-verify=true"]
+    "--tls.insecure-skip-verify"]
