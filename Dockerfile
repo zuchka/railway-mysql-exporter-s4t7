@@ -1,4 +1,4 @@
-FROM prom/mysqld-exporter:latest
+FROM prom/mysqld-exporter
 
 # ENV MYSQL_USER=$MYSQL_USER
 # ENV MYSQL_PASSWORD=$MYSQL_PASSWORD
