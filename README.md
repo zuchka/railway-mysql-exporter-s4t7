@@ -1,6 +1,6 @@
 ## MySQL Metrics Collector for Railway
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/DpW6Wa?referralCode=9kQOPq)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/H5G_9i?referralCode=9kQOPq)
 
 ## How to replace user `root` with user `exporter`
 
